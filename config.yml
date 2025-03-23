@@ -1,0 +1,37 @@
+URP-DEV:
+  url: https://dev.cloud.uavia.eu/account/login
+  port: 0
+
+URP-APP:
+  url: https://app.uavia.eu/account/login
+  port: 0
+
+robot_information_button: '//button[contains(@class, "btn-robot-info")]'
+side_bar_button: '//button[contains(@class, "menu-burger")]'
+site_element: '//div[contains(@class, "menu-site-content")]//div[contains(@class, "menu-list")]//div[contains(@class, "company")]//div[contains(@class, "site-name-title")]'
+site_name: '//div[contains(@class, "left-nav")]//a[contains(@class, "no-underline")]//div[contains(@class, "title")]//p[contains(@class, "site-name")]'
+side_bar_navigation: '//div[contains(@id, "content-page")]//div[contains(@id, "side-bar-content")]//app-side-bar-menu-item[contains(@class, "ng-star-inserted")]'
+logo_dashboard_uavia: '//a[contains(@class, "logo-click")]'
+robot_fly_button: '//button[contains(@class, "btn-use") and contains(@class, "mat-primary")]'
+dialog_mission_title: '//div[contains(@class, "mdc-dialog__container")]//div[contains(@class, "dialog-title")]'
+robot_start_button: '//div[contains(@class, "mdc-dialog__container")]//button[contains(@class, "btn-use")]'
+take_off_button: '//div[contains(@id, "cockpit-footer")]//button[contains(@class, "btn-green mdc-button")]'
+activity_label: '//div[contains(@id, "cockpit-footer")]//button[contains(@class, "btn-activity")]//span[contains(@class,"mdc-button__label")]'
+battery_indication: '//div[contains(@id, "cockpit-footer")]//div[contains(@class, "battery-green")]'
+flight_plan_section_to_open: '//app-cockpit-flight-plans[contains(@class, "ng-star-inserted")]//div[contains(@class, "flex-row-between-center")]'
+flight_plan_section_to_close: '//app-cockpit-flight-plans[contains(@class, "ng-star-inserted")]//div[contains(@class, "icon-content")]'
+slider_altitude: '//app-cockpit-altitude-slider[contains(@class, "ng-star-inserted")]//div[contains(@class, "slider-content")]//mat-slider[contains(@class, "mat-slider")]'
+slider_label_altitude: '//app-cockpit-altitude-slider[contains(@class, "ng-star-inserted")]//div[contains(@class, "slider-content")]//p[contains(@class, "label")]'
+slider_speed: '//div[contains(@class, "slider-content")]//mat-slider[contains(@class, "mat-slider")]'
+slider_label_speed: '//div[contains(@class, "slider-content")]//p[contains(@class, "label")]'
+return_home_button: '//div[contains(@id, "cockpit-footer")]//button[contains(@class, "btn-blue")]'
+stop_red_button: '//div[contains(@id, "cockpit-mission-control")]//button[contains(@class, "btn-off")]'
+stop_mission_button: '//div[contains(@class, "cdk-overlay-container")]//button[contains(@class, "btn-confirm-end-mission")]'
+info_element: '//div[contains(@class, "robot-information-content")]//div[contains(@class, "info-content")]'
+mission_time: '//div[contains(@id, "cockpit-mission-control")]//div[contains(@class, "mission-time")]'
+notif_button: '//button[contains(@id, "notification-button")]'
+participant_button: '//button[contains(@id, "participants-button")]'
+sensor_button: '//div[contains(@id, "cockpit-footer")]//button[contains(@class, "btn-footer-green-left")]'
+
+username: ismail.hamrouni@uavia.eu
+password: gAAAAABnaX4SYHEsQIUFaesCmwZubqJW6Nt8n0HyqWEMUH2AMfe2YPHL-p0l_Cnr6yLQrBt5MxBWRio3bTh4_AzUUEn1AQQuRg==
